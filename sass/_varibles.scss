@@ -1,0 +1,18 @@
+$primary: #1274B3;
+$primary-light: lighten($primary, 10);
+$primary-dark: darken($primary, 10);
+
+$secondary: #e60000;
+$secondary-light: lighten($secondary, 10);
+$secondary-dark: darken($secondary, 10);
+
+@mixin btn-shadow($color, $opacity: 0.5) {
+  box-shadow: 0 0 0 0.2rem rgba($color, $opacity);
+}
+
+/* Color Theme Swatches in Hex */
+$red-dark: #990F0F;
+$yellow: #EAE717;
+$red: #E60000;
+$blue: #1274B3;
+$blue-light: #086199;

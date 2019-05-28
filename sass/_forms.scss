@@ -1,0 +1,36 @@
+/* Magnific Popup */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Popup Form */
+.form {
+  max-width: 400px;
+  background-color: white;
+  padding: 15px;
+  .glyphicon {
+    font-size: 24px;
+  }
+}
+
+.form__title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form__item {
+  margin-top: 1rem;
+  input, textarea, button {
+    width: 100%;
+    padding: 8px 0 8px 15px;
+  }
+}
+
+.message { margin-top: 1rem; text-align: center; }

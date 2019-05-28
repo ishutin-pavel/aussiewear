@@ -1,0 +1,33 @@
+/*
+ * Social Links
+*/
+.social-links {
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-links {
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-links .link:not(:last-child) {
+  margin-right: .5rem
+}
+
+.social-links .link:hover .img img path.bg,
+.social-links .link:hover .img svg path.bg {
+  fill: #f3f3f3
+}
+
+.social-links .link .img img,
+.social-links .link .img svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block
+}
+
+.social-links .link .img img path,
+.social-links .link .img svg path {
+  transition: all .2s
+}

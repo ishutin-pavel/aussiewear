@@ -1,0 +1,37 @@
+/* Primary Button */
+.btn-primary {
+  color: #fff !important;
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: $secondary-light  !important;
+  border-color: $secondary-light  !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  @include btn-shadow($secondary, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff !important;
+  background-color: $secondary  !important;
+  border-color: $secondary  !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff !important;
+  background-color: $secondary-light  !important;
+  border-color: $secondary-light  !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  @include btn-shadow($secondary, 0.5);
+}
